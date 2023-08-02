@@ -34,3 +34,21 @@ if (size > 100) {
   console.log("Invalid");
 }
 console.log("************************");
+const accessriyPrice = 10;
+let bankBalance = 500;
+let amount = 100;
+if (amount < bankBalance) {
+}
+console.log("************************");
+let account = 3;
+switch (account) {
+  case 1:
+    console.log("Account 1");
+    break;
+  case 2:
+    console.log("Account 2");
+    break;
+  case 3:
+    console.log("Account 3");
+    break;
+}

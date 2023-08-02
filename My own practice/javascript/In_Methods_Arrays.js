@@ -1,7 +1,5 @@
 // let fruits = ["Apple", "Orange", "Plum"];
 
-
-
 // console.log(fruits[0]); // Apple
 // console.log(fruits[1]); // Orange
 // console.log(fruits[2]); // P
@@ -14,8 +12,6 @@
 // console.log(fruits.unshift('Manaa'))
 // console.log(fruits)
 
-
-
 // let matrix = [
 //     [1, 2, 3],
 //     [4, 5, 6],
@@ -24,8 +20,6 @@
 // console.log(matrix[0][0], matrix[0][1], matrix[0][2]);
 // console.log(matrix[1][0], matrix[1][1], matrix[1][2]);
 // console.log(matrix[2][0], matrix[2][1], matrix[2][2]);
-
-
 
 // function sumInput() {
 
@@ -50,7 +44,6 @@
 
 // alert(sumInput());
 
-
 // function getMaxSubSum(arr) {
 //     let maxSum = 0;
 //     let partialSum = 0;
@@ -69,14 +62,12 @@
 // console.log(getMaxSubSum([-2, -1, 1, 2])); // 3
 // console.log(getMaxSubSum([100, -9, 2, -3, 5])); // 100
 // console.log(getMaxSubSum([1, 2, 3])); // 6
-// console.log(getMaxSubSum([-1, -2, -3]));    
-
+// console.log(getMaxSubSum([-1, -2, -3]));
 
 // +++++++++==================>>>>>>>>>>>>>>>>>
 // let arr = ["Let's", "Study", "JavaScript", "right", "now"];
 // arr.splice(0, 3, "Let's", "Study", "Holy Quran");
 // console.log(arr);
-
 
 // let arr = ["I", "study", "JavaScript"];
 
@@ -87,13 +78,10 @@
 
 // console.log(arr);
 
-
-
 // let arr1 = ["I", "Study", "Holy", "Quran"];
 // arr1.splice(1, 0, "All", "Night")
 // console.log(arr1)
 // console.log(arr1.slice(3, 6))
-
 
 // let arr1 = ["I", "am"];
 // let arr2 = ["coding", "now"];
@@ -111,8 +99,6 @@
 // console.log(arr.indexOf(false))
 // console.log(arr.lastIndexOf('Faizullah'))
 
-
-
 // let users = [
 //     { id: 1, name: "John" },
 //     { id: 2, name: "Pete" },
@@ -121,7 +107,6 @@
 
 // let user = users.find(item => item.id == 1);
 // console.log(user.name);
-
 
 // let users = [
 //     { id: 1, name: "faiz" },
@@ -132,8 +117,6 @@
 // console.log(user)
 // console.log(users.filter(item => item))
 
-
-
 // let name = "Faizullah, Ali, Ahmad";
 // let arr = name.split(', ', 2);
 // console.log(arr)
@@ -141,8 +124,35 @@
 //     console.log(user)
 // }
 
+// let names = ["Faizullah", "Ali", "Ahmad"];
+// let arr = names.join("-");
+// console.log(arr)
 
+// let arr = [12, 34, 45, 56, 34];
+// arr.forEach((item, index) => {
+//   console.log(`The item ${item} is in index ${index}`);
+// });
+// let search = arr.indexOf(45, 1);
+// let search = arr.includes(45, 1);
+// console.log(search);
 
-let names = ["Faizullah", "Ali", "Ahmad"];
-let arr = names.join("-");
-console.log(arr)
+// let users = [
+//   { id: 1, name: "John" },
+//   { id: 2, name: "Pete" },
+//   { id: 3, name: "Mary" },
+// ];
+// let someUsers = users.filter((item) => item.id);
+// console.log(someUsers);
+
+// let lengths = ["Bilbo", "Gandalf", "Nazgul"].map((item) => {
+//   if (item === "Bilbo") {
+//     console.log("The name is found");
+//   } else {
+//     console.log("The name is not found");
+//   }
+// });
+// console.log(lengths);
+
+let arr = [1, 2, 3];
+let res = arr.reduce((add, item) => add + item);
+console.log(res);
