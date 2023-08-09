@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+.carousel {
+  position: relative;
+  width: 1000px;
+  padding: 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background: #eee;
+  margin: auto;
+}
+.arrow {
+  position: absolute;
+  top: 160px;
+  padding: 0;
+  background: #ddd;
+  border-radius: 15px;
+  border: 1px solid gray;
+  font-size: 24px;
+  line-height: 24px;
+  color: #444;
+  display: block;
+}
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+.prev {
+  left: 7px;
+}
+
+.next {
+  right: 7px;
+}
+
+.main {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+}
+.cardMain {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  transition: margin-left 250ms;
+
+  align-items: start;
+  padding: 20px;
+  border-radius: 30px;
+}
+img {
+  width: 290px;
+  height: auto;
+  border-radius: 30px;
+}
+h3 {
+  text-align: left;
+  margin-top: 20px;
+}
+p {
+  margin-top: 20px;
+  width: 35ch;
+  line-height: 30px;
+  color: gray;
+}
+button {
+  border: none;
+  background-color: white;
+  color: blue;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.gallery {
+  display: flex;
+  overflow: hidden;
+  gap: 15px;
+}
